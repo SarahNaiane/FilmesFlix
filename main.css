@@ -45,8 +45,8 @@ body {
 
 .form-wrapper input {
     display: block;
-    margin: 0 auto;
-    padding: 10px 15px;
+    margin: 10px auto;
+    padding: 10px 45px;
 }
 
 .form-wrapper button {
@@ -64,4 +64,11 @@ body {
 
 .form-wrapper button:hover {
     opacity: 0.8;
+}
+
+textarea {
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 45px;
 }

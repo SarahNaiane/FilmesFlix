@@ -1,5 +1,9 @@
 function adicionarFilme() {
     var filmeFav = document.getElementById("filme").value;
+    var name = document.getElementById("name").value;
+    var trailer = document.getElementById("trailer").value;
+    var descricao = document.getElementById("descricao").value;
+
 
     if (filmeFav.endsWith(".jpg")) {
         listarFilmes(filmeFav);
